@@ -1,0 +1,54 @@
+// .carousel-indicators .active{
+//     background-color: #f00;
+// }
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #b3b3b3;
+    box-shadow: inset 1px 1px 1px 1px rgb(0, 0, 0);    
+}
+.carousel-indicators .active {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    background-color: #59cefc;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 35px;
+  width: 35px;
+  outline: white;
+  background-size: 22.5%, 22.5%;
+  border-radius: 40%;
+  border: 1px solid black;
+  background-image: none;
+//   background:radial-gradient(circle at top left, white 70%);
+  background:white
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-caption h5{
+    // color: white; font-family: 'Helvetica Neue', sans-serif; font-size: 34px; line-height: 24px; margin: 0 0 24px; text-align: center; text-justify: auto;
+    background:blueviolet;
+    color: #ffffff; font-family: 'Raleway',sans-serif; font-size: 35px; font-weight: 800; line-height: 50px; margin: 0 0 24px; text-align: center; text-transform: uppercase;
+}
